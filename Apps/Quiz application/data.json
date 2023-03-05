@@ -1,0 +1,62 @@
+{
+    "HTML" : {
+
+        "question1 html" : [
+            "right ans q1" , 
+            "no" , 
+            "to" 
+        ]
+        ,
+        "question2 html" : [
+            "right ans q2" , 
+            "fo" , 
+            "go" 
+        ]
+         ,
+         "question3 html" : [
+            "right ans q3" , 
+            "qo" , 
+            "yo" 
+        ]
+    } 
+    
+
+    ,
+    "CSS" : {
+
+        "question1 css" : [
+            "right ans q33" , 
+            "so" , 
+            "vo" 
+        ]
+        ,
+        "question2 css" : [
+          "right ans q4" , 
+           "kl" , 
+            "zx" 
+        ]
+    }
+    ,
+    "JavaScript" : {
+        "question1 js" : [
+          "right ans q5" , 
+          "wrong ans q5" , 
+            "wrong ans2 q5" 
+        ]
+        ,
+
+        "question2 js" : [
+            "right ans q6" , 
+           "wrong ans q6" , 
+         "wrong ans2 q6" 
+        ] 
+        ,
+        "question3 js" : [
+            "right ans q7" , 
+           "wrong ans q7" , 
+         "wrong ans2 q7" 
+        ]
+        
+    }
+
+}

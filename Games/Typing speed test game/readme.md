@@ -1,0 +1,1 @@
+- the behavior of the game is dynamic , it responses to  any number of words inserts to it 

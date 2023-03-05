@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+.game-name{
+text-align: center;
+background-color: rgb(23, 23, 23);
+padding: 10px;
+width:100% ;
+color: white;
+}
+
+.select-btn , .start-btn , .restart{
+    width: 50%;
+    display: block;
+    margin:  20% auto 0;
+    background-color: cornflowerblue;
+    border-radius: 7px; 
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.start-btn {
+    opacity: 0;
+    transition: ease 1sec;
+}
+.restart{
+    display: none;
+}
+
+.start-btn.start-play{
+    margin: 20px auto 0;
+    opacity: 100;
+}
+
+.selected-items {
+    background-color: cornflowerblue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1px;
+    border-radius: 7px;
+    border: solid 1px white;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.selected-items ul {
+    list-style: none;
+    color: white;
+    font-weight: 700 ;
+    padding-left: 0;
+}
+
+.selected-items ul li {
+    background-color: rgb(152, 188, 255);
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    padding: 4px;
+    margin:12px  auto;
+    cursor: pointer;
+}
+
+
+.message{
+    width: 85%;
+    margin:  20px auto;
+    padding: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    border: solid 1px lightskyblue;
+    background-color: white;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.level , .seconds {
+    color: rgb(229, 33, 33);
+    font-weight: 700;
+}
+
+.cong-msg ,.game-over{
+    width: 80%;
+    border: solid 1px black; 
+    margin: auto;
+    padding: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    top: 100%;
+    transition: ease 0.5s;
+    z-index: 9;
+    background-color: rgba(152, 188, 255 , 50) ;
+}
+.endMsg{
+    position: relative; 
+    top: -200%;
+    transition: ease 0.5s;
+}
+
+
+.game-over{
+  color: red;
+}
+.to-type{
+    font-weight: 700;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+input{
+    width: 85%;
+    border-radius: 3px;
+    border: 2px cornflowerblue solid;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.words-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 85%;
+    border: none;
+    margin: 10px auto ;
+    background-color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.words-box span {
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 6px;
+
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 5px auto;
+    background-color: white;
+    padding: 4px;
+    border: solid 1px lightblue;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.time-left , .score {
+    color: green;
+    font-weight: 800;
+}
+.active{
+    opacity: 100;
+}
+
+.active-re{
+    display: block;
+}
+
+.de-active{
+    display:  none;
+}
