@@ -253,3 +253,12 @@ display:none;
 margin-top: 5px;
    }
 }
+
+@media (max-width: 300px){
+    #man{
+        min-width: 100px;
+    }
+    #letters div span{
+        padding: 3px;
+    }
+}
