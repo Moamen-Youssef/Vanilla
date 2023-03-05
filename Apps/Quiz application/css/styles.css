@@ -305,3 +305,28 @@ input {
 }
 
 /* timer section */
+
+/* medias */
+@media (max-width: 500px) {
+
+   .cat-num{
+    right: 0%;
+    transform: translateX(0%);
+    width: 100%;
+   } 
+
+   .quiz-container .questions-sec .question .the-question {
+    margin: 0;
+    width: 100%;
+}
+
+.quiz-container .questions-sec .question{
+    width: 100%;
+}
+}
+
+@media (max-width: 300px) {
+    .buttons *{
+        width: 100px;
+    }
+}
