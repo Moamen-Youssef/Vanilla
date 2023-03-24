@@ -1,5 +1,5 @@
 the pseudo code of this OOP program 
-...................................
+
 
 - create the function that decreases seconds from 60 to 0 => decreseTo()
 - set the interval 
@@ -19,7 +19,7 @@ the pseudo code of this OOP program
 else => decrese minutes by one &
         reset the seconds 
 
-......................................................
+
 #for-The-Timer Class 
 
 
