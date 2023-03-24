@@ -66,6 +66,7 @@ class Timer {
                             decreaseTo();
                         }
                         this.hours--;
+                        this.minutes = 59 ;
                     }
                 } else {
                     this.resetAndDecrease()
