@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="after-end">Time is over</div>
+
+    <div class="setting">
+
+        <label for="hours"> Set the number of hours <br>
+            <input type="number" min="0" max="24" id="hours">
+        </label>
+
+        <label for="minutes"> Set the number of minutes <br>
+            <input type="number" min="0" max="60" id="minutes">
+        </label>
+
+        <button class="start">Start Timer</button>
+    </div>
+
+
+    <div class="timer-sec">
+        <div class="time">
+            Time left <span class="hours"></span> : <span class="minutes"></span> : <span class="seconds"></span>
+        </div>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
