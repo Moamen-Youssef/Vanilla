@@ -1,0 +1,76 @@
+ body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .app{
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px gray;
+    border-radius: 8px;
+ }
+ 
+ h1{
+    text-align: center;
+ }
+ input , label{
+margin-bottom: 10px;
+display: block;
+}
+textarea{
+    margin-top: 15px;
+    padding:12px 0 0 8px ;
+}
+
+button{
+    display: block;
+    margin-top: 15px;
+}
+
+.input-data {
+    border: solid 2px gray;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+#feelings , #zip {
+    width: 99%;
+    border: none;
+    outline: none;
+    border-bottom:  solid 2px gray;
+    font-size: 18px;
+    
+}
+#zip{
+    padding: 5px 0 6px 8px ;
+}
+#generate {
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    border:solid 2px gray;
+    border-radius: 5px;
+    background-color:darkslategrey;
+    color: white;
+cursor: pointer;
+margin-bottom: 8px ;
+font-size: 18px;
+font-weight: 700;
+}
+
+
+#entryHolder{
+    border: solid 2px gray;
+    border-radius: 6px;
+    margin:15px;
+    height: 20vh;
+    padding: 5px;
+}
+#entryHolder p {
+    color: lightgray;
+    font-weight: 500;
+}
+#date , #temp , #content {
+font-size: 18px;
+margin: 20px auto;
+}
